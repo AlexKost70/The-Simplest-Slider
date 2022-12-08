@@ -1,0 +1,33 @@
+@keyframes fadeIn {
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-images {
+  margin-bottom: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  animation: fadeIn 2s;
+}
+
+.img-hidden {
+  display: none;
+}
+
+
